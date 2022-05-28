@@ -20,13 +20,19 @@ html{box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;}
 
-iframe{ max-width: 300px;
+iframe{
     border-radius: 1rem;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 16px double #2e6471;}
 
+    @media (min-width: 768px) {
+        iframe{
+            width: 600px;
+            
+        }
+    }
 
 
       /* NAVEGACIÓN */
