@@ -1,0 +1,146 @@
+html{box-sizing: border-box;
+    font-size: 62.5%;}
+    *, *:before, *:after {
+        box-sizing: inherit;
+      }
+    
+      a {
+          text-decoration: none;
+          padding: 1rem;
+          font-family:  'Cairo', sans-serif;
+      }
+
+      h1{
+        font-family: 'Cairo', sans-serif;
+      }
+
+      h2 {font-family: 'Cairo', sans-serif;}
+
+      p{font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;}
+
+iframe{border-radius: 1rem;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 16px double #2e6471;}
+
+
+
+      /* NAVEGACIÓN */
+
+      header{
+          margin-bottom: 1.5rem;
+      }
+      .navegacion{
+          display: grid;
+          gap: 1rem;
+          background-color: #fff;
+          -webkit-box-shadow: 0px 11px 5px 0px rgba(0, 0, 0, 0.864);
+          -moz-box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+          box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+      }
+
+      @media (min-width: 768px) {
+        .navegacion{
+            display: flex;
+            justify-content: space-around;
+            gap: 1rem;
+        }
+      }
+
+      .navegacion a {
+          color: #000;
+          font-family:  'Cairo', sans-serif;
+          font-size: 2rem;
+          margin: 0 auto;
+          
+        }
+
+        .navegacion  :hover{
+            font-weight: bold;
+          transition: .2s;  font-size: 2.2rem;
+        }
+
+        @media (min-width: 768px) {
+            .header.fijo {
+             left: 0;
+             top: 0;
+             position: fixed;
+             width: 100%;
+             box-shadow: 0.1rem 0.2rem 0.3rem 0.3rem rgb(164, 164, 164);
+            }
+          }
+        
+      /* MAIN */
+main{
+    background: rgb(147,147,146);
+background: linear-gradient(0deg, rgba(101, 200, 222, 0.753) 0%, rgba(249,249,249,1) 100%);
+margin-bottom: 0;
+}
+
+
+      .portfolio_inicio{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+.portfolio_inicio h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+ 
+.portfolio_institucionales, .portfolio_publicidades, .portfolio_streaming, .portfolio_eventos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio_institucionales h2, .portfolio_publicidades h2 , .portfolio_streaming h2, .portfolio_eventos h2{
+    font-size: 3rem;
+}
+
+.portfolio_inicio iframe , .portfolio_institucionales iframe, .portfolio_publicidades iframe , .portfolio_streaming iframe, .portfolio_eventos iframe{
+    margin-bottom: 2rem;
+}
+
+.columnas2{
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    .columnas2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 2rem;
+    }
+}
+
+.volver{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (min-width: 768px) {
+    .volver{
+        justify-content: center;
+    }
+    
+}
+
+.volver a{
+    background-color: #fff;
+    color: #000;
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+.volver :hover{
+    transition: .2s; background-color: rgb(255, 105, 6);
+    transition: .2s; font-size: 2.5rem;
+}
