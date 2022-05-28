@@ -20,7 +20,7 @@ html{box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;}
 
-iframe{ max-width: 600px;
+iframe{ max-width: 300px;
     border-radius: 1rem;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
