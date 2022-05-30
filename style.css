@@ -27,13 +27,15 @@ iframe{
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 16px double #2e6471;}
 
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
         iframe{
            width: 350px;
            height: 200px;
 
         }
     }
+
+    
 
 
       /* NAVEGACIÓN */
